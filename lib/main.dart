@@ -1,19 +1,24 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:todo_webapp/auth/env.dart';
 import 'package:todo_webapp/pages/home_page/home_page.dart';
 import 'package:todo_webapp/utils/colors.dart';
-
 import 'package:todo_webapp/widgets/signin_box.dart';
 
 void main() async {
+  await dotenv.load();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-      options: const FirebaseOptions(
-    apiKey: "AIzaSyA6ozmEEF_44FbXe_XI7zgPniWVlryz_4A",
-    projectId: "todonote-10b28",
-    messagingSenderId: "873762091935",
-    appId: "1:873762091935:web:560febd6f13e5011bd43aa",
+      options: FirebaseOptions(
+    apiKey: Env.firebaseApiKey,
+    authDomain: Env.firebaseAuthDomain,
+    projectId: Env.firebaseProjectId,
+    storageBucket: Env.firebaseStorageBucket,
+    messagingSenderId: Env.firebaseMessagingSenderId,
+    appId: Env.firebaseAppId,
+    measurementId: Env.firebaseMeasurementId,
   ));
   runApp(const MyApp());
 }
