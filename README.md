@@ -1,4 +1,4 @@
-# Hatio : Take Home Challenge
+![Screenshot 2024-07-21 200210](https://github.com/user-attachments/assets/05d3cd75-2a12-4b66-9c7a-61dfb6717bfb)# Hatio : Take Home Challenge
 
 This is a Flutter application that helps users manage their projects and todos. The app allows users to create and manage projects, add todos to each project, and perform various actions such as marking todos as done, updating or deleting them. The application uses Firebase for authentication and Firestore for data storage.
 
@@ -111,6 +111,13 @@ Before you begin, ensure you have met the following requirements:
 For more details on Flutter and Firebase, refer to the official documentation:
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Firebase Documentation](https://firebase.google.com/docs)
+![Screenshot 2024-07-21 200509](https://github.com/user-attachments/assets/01f94621-4a89-4537-b01c-a34100e8abe2)
+![Screenshot 2024-07-21 200008](https://github.com/user-attachments/assets/3ed0277e-6349-449a-a65a-897077c5c1d0)
+![Screenshot 2024-07-21 200451](https://github.com/user-attachments/assets/50466855-33a8-454a-b5a9-44f49ebc57ac)
+![Screenshot 2024-07-21 200451](https://github.com/user-attachments/assets/2a636eba-c704-44ac-9db7-9745cb0823a9)
+
+
+
 
 If you encounter any issues or have questions, feel free to open an issue in the repository or contact the project maintainers.
 
